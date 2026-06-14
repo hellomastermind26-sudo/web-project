@@ -1,0 +1,166 @@
+/* Image styling */
+.class-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Teacher name */
+.teacher {
+    font-weight: bold;
+    color: #004080;
+    margin-top: 10px;
+}
+
+/* Timetable */
+.timetable {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Table style (optional for detailed timetable) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #004080;
+    color: white;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #FF1493;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Navbar */
+nav {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Classes Section */
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Class Cards */
+.class-card {
+    background: #f4f4f4;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Button */
+.class-card button {
+    background: lightpink;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.class-card button:hover {
+    background: lightash;
+    
+}
+
+/* Footer */
+footer {
+    background: #36454F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+<link rel="stylesheet" href="Classes.html">
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f6f9;
+}
+
+/* HEADER */
+header {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* NAV */
+nav {
+    background: #004080;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    padding: 30px;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}

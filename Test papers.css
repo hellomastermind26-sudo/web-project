@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #FF1493;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Navbar */
+nav {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Classes Section */
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Class Cards */
+.class-card {
+    background: #f4f4f4;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Button */
+.class-card button {
+    background: lightpink;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.class-card button:hover {
+    background: lightash;
+    
+}
+
+/* Footer */
+footer {
+    background: #36454F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+<link rel="stylesheet" href="Test papers.html">

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Materials</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f7fb;
+}
+
+/* HEADER */
+
+header{
+    background:#1e3a8a;
+    color:white;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+header h1{
+    margin:0;
+    font-size:32px;
+}
+
+/* MAIN SECTION */
+
+.section-box{
+    width:90%;
+    max-width:800px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.section-box h2{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+
+.section-box p{
+    color:#555;
+    margin-bottom:25px;
+}
+
+/* DOWNLOAD LIST */
+
+.download-list{
+    list-style:none;
+    padding:0;
+}
+
+.download-list li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px;
+    margin-bottom:15px;
+    background:#f9fbff;
+    border:1px solid #dbeafe;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.download-list li:hover{
+    transform:translateY(-2px);
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.download-list span{
+    font-size:18px;
+    color:#333;
+}
+
+/* BUTTON */
+
+.download-btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.download-btn:hover{
+    background:#1d4ed8;
+}
+
+/* FOOTER */
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Download Materials</h1>
+</header>
+
+<main class="section-box">
+
+    <h2>Learning Resources</h2>
+    <p>Students can download learning materials below:</p>
+
+    <ul class="download-list">
+
+        <li>
+            <span>📘 Mathematics Worksheets</span>
+            <a href="files/math.pdf" download>
+                <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+        <li>
+            <span>📗 English Notes</span>
+            <a href="files/english.pdf" download>
+                <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+        <li>
+            <span>💻 ICT Lessons</span>
+            <a href="files/ict.pdf" download>
+                <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+        <li>
+            <span>📘Past Papers</span>
+            <a href="files/science.pdf" download>
+                <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+    </ul>
+
+</main>
+
+<footer>
+    <p>Master Mind Learning Center</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* ================= HEADER ================= */
+.header {
+    position: relative;
+    background: #FF1493;
+    color: white;
+    height: 90px;
+      text-align: center;
+}
+
+/* LOGO LEFT */
+.logo-box {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo-box img {
+    height: 90px;      /* perfect size */
+    width: 90px;       /* prevents distortion */
+}
+
+/* TITLE CENTER */
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* PERFECT CENTER */
+    font-size: 32px;
+    margin: 0;
+      text-align: center;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* ================= MAIN ================= */
+main {
+    flex: 1;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= NEWS ================= */
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* CARDS */
+.news-card {
+    background: #f4f4f4;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* BUTTON */
+.news-card button {
+    background: lightpink;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.news-card button:hover {
+    background: deeppink;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #36454F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;   /* 🔥 pushes footer to bottom */
+}

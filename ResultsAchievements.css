@@ -1,0 +1,105 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page layout */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER WITH LOGO */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    gap: 15px;
+}
+
+/* LOGO */
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+/* TITLE */
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main grows to push footer down */
+main {
+    flex: 1;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* News Section */
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Cards */
+.news-card {
+    background: #f4f4f4;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+.news-card button {
+    background: lightpink;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.news-card button:hover {
+    background: deeppink;
+}
+
+/* Footer ALWAYS at bottom */
+footer {
+    background: #36454F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,189 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* keeps title centered */
+    background: #FF1493;
+    color: white;
+    height: 100px;
+    position: relative;
+}
+
+/* LOGO */
+.logo {
+    position: absolute;   /* allows left positioning */
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* TITLE */
+.header h1 {
+    font-size: 28px;
+    text-align: center;
+}
+/
+
+/* NAV */
+nav {
+    background: pink;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* SECTION */
+section {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* GRID */
+.teaching-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* CARD */
+.teach-box {
+    width: 220px;
+    text-align: center;
+}
+
+.teach-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* LOGO LEFT */
+.header-left {
+    position: absolute;
+    left: 20px;
+}
+
+.header-left img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* TITLE CENTER */
+.header-center h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background: pink;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* MAIN */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* SECTION */
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* HEADING */
+section h2 {
+    color: #FF1493;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* GRID */
+.teaching-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* CARD */
+.teach-box {
+    background: #fff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.teach-box:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGE */
+.teach-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+.short-text {
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background: #36454F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
